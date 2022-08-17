@@ -233,12 +233,17 @@ footer h2 {
     top: 110vw;
   }
 
-  footer * {
+  .footer * {
     transform: scale(3.5);
    
   }
 
-  footer h2 {
+  .footer h2 {
+    top: -15vw;
+    position: relative;
+    text-align: center;
+  }
+  .footer  {
     top: -15vw;
     position: relative;
     text-align: center;
