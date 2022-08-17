@@ -148,7 +148,6 @@ footer {
   gap: 6vw;
   width: 100%;
   height: 25vw;
-  top: 15vw;
 }
 
 footer img {
@@ -230,6 +229,9 @@ footer h2 {
   }
 
 
+  footer {
+    top: 110vw;
+  }
 
   .footer * {
     transform: scale(3.5);
