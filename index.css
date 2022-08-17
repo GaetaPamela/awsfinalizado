@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ff7f50;
+  background-color: #0A0A2A;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
   top: -2px;
   height: 8vw;
   max-height: 80px;
-  background-color: #fff;
+  background-color: #FE642E;
 }
 
 nav {
@@ -23,7 +23,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   padding: 0 20px;
-  background-color: #fff;
+  background-color:  #ffffff;
 }
 
 li {
@@ -44,13 +44,14 @@ main {
 h2 {
   position: relative;
   top: 5vw;
-  color: white;
+  color: #FE642E;
   font-size: 2.88vw;
 }
 
 .firstP {
   position: relative;
   top: 7vw;
+  color: #ffffff;
   font-size: 1.78vw;
   letter-spacing: 1px;
   max-width: 60vw;
@@ -101,7 +102,7 @@ h2 {
 .thirdSection .conhecimento {
   text-align: center;
   font-size: 2vw;
-  color: #fff;
+  color: #FE642E;
 }
 
 .containerConhecimentos {
@@ -124,7 +125,7 @@ h2 {
 }
 
 .boxConhecimentos {
-  border: 1px solid #c94747cc;
+  border: 1px solid #FE642E;
   width: 20vw;
   height: 17vw;
   background-color: #ffffff;
@@ -227,16 +228,28 @@ footer h2 {
     height: 15vw;
   }
 
+
   footer {
     top: 110vw;
   }
 
-  footer * {
+  .footer * {
     transform: scale(3.5);
+   
   }
 
-  footer h2 {
+  .footer h2 {
     top: -15vw;
     position: relative;
+    text-align: center;
   }
+
+  .footer h2 {
+    top: -15vw;
+    position: relative;
+    text-align: center;
+  }
+  
+
+  
 }
